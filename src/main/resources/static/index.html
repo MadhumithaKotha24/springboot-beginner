@@ -1,18 +1,32 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>User Card</title>
+
     <link rel="stylesheet" href="css/site.css">
 </head>
 <body>
 
+    <h1>User Card</h1>
+
     <div class="card">
-        <img id="userImage" src="img/john.png" alr="User Image">
-        <h2 id="userName">John</h2>
-        <p id="userGender">Male</p>
-        <button onclick="toggleCard()">Toggle User</button>
+
+        <img id="userImage" src="img/john.png" alt="User Image">
+
+        <div class="container">
+            <h2 id="userName">John</h2>
+            <p id="userGender">Male</p>
+
+            <button onclick="toggleCard()">
+                Toggle User
+            </button>
+        </div>
+
     </div>
 
     <script src="js/site.js"></script>
+
 </body>
 </html>
